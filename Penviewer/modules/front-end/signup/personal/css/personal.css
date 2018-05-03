@@ -1,0 +1,82 @@
+.title-logo {
+    margin-top: 30px;
+    width: 350px;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "header" "section" "footer";
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    justify-items: center;
+    height: 150px;
+}
+
+section {
+    grid-area: section;
+    display: grid;
+    justify-items: center;
+}
+
+.input-half {
+    width: 330px;
+    font-size: 20px;
+    padding: 4px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input {
+    font-size: 20px;
+    padding: 4px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.drop-down-gender {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.drop-down-day {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.drop-down-month {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.drop-down-year {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    grid-area: footer;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+}
+
+.submit-btn {
+    padding: 5px;
+    font-size: 18px;
+    float: right;
+}
